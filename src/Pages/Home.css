@@ -1,0 +1,33 @@
+.info {
+  align-self: end;
+  width: 25ch;
+  text-align: justify;
+  display: inline-block;
+  font-weight: 500;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  line-height: 1.5;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.info span {
+  font-weight: 500;
+}
+
+.anime-info {
+  animation: infoAnime 800ms forwards;
+  transform: translateY(-30px);
+  opacity: 0;
+}
+
+@keyframes infoAnime {
+  to {
+    transform: initial;
+    opacity: 1;
+  }
+}
+
+
+
