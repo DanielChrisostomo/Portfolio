@@ -1,38 +1,47 @@
 import React from "react";
 import Title from "./Title";
 import "./Home.css";
-import Carps from "../assets/carps.svg?react";
 
 const Home = () => {
   return (
     <>
       <Title />
-      <Carps className="carps" />
       <div className="anime-info">
         <section className="info">
-          <span>Nascido em </span>
+          <span>Minha jornada</span>
           <br />
-          <span>Ribeirão Preto</span>
+          <span>na programação</span>
           <br />
-          <span>Tenho o interesse em</span>
+          <span>começa em 2023</span>
           <br />
-          <span>me tornar especialista</span>
+          <span>Ano no qual inicio</span>
           <br />
-          <span>em desenvolvimento</span>
+          <span>meus estudos em</span>
           <br />
-          <span>Front-End</span>
+          <span>Análise e</span>
           <br />
-          <span>Atualmente estudo</span>
-          <br />
-          <span>Análise e Desenvolvimento</span>
+          <span>Desenvolvimento</span>
           <br />
           <span>de Sistemas</span>
           <br />
-          <span>Programo em React JS</span>
+          <span>Atualmente </span>
           <br />
-          <span>JavaScript, TypeScript</span>
+          <span>meu foco é o</span>
           <br />
-          <span>HTML e CSS</span>
+          <span>desenvolvimento web</span>
+          <br />
+          <span>Front-End</span>
+          <br />
+          <span>e busco desenvolver</span>
+          <br />
+          <span>sistemas com as</span>
+          <br />
+          <span>tecnologias</span>
+          <br />
+          <span>React JS, JavaScript</span>
+          <br />
+          <span>TypeScript e CSS3</span>
+          <br />
         </section>
       </div>
     </>

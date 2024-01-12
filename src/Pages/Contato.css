@@ -1,0 +1,47 @@
+.contato {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.contato-git {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.gitImg {
+  border-radius: 4px;
+  max-width: 650px;
+  transition: 2s;
+}
+
+.gitImg:hover {
+  transform: scale(1.1);
+}
+
+.contato-git a {
+  font-weight: bold;
+  text-decoration:underline;
+  text-align: center;
+  margin: 1rem 0;
+  transition: 300ms;
+}
+
+.svg-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.anime-contato {
+  animation: contatoAnime 2s forwards;
+  transform: translateY(-30px);
+  opacity: 0;
+}
+
+@keyframes contatoAnime {
+  to {
+    transform: initial;
+    opacity: 1;
+  }
+}

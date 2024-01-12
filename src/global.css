@@ -1,5 +1,7 @@
 html {
   height: 100%;
+  --color-1: #fff;
+  --color-hover: #8d86ff
 }
 
 * {
@@ -26,6 +28,11 @@ q:before, q:after {
 a {
   text-decoration: none;
   color: inherit;
+  transition: 300ms;
+}
+
+a:hover{
+  color: var(--color-hover);
 }
 
 body {
@@ -33,42 +40,46 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-  color: #333;
+  color:var(--color-1);
 	line-height: 1;
   background: black;
   height: 100%;
   width: 100%;
   overflow: hidden;
+  background-image: url("./assets/leaves.svg");
+  background-size: 12vh;
+  background-position-x: left;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
 }
 
 .main-container {
   display: grid;
   grid-template-columns: 600px auto;
   margin: 2rem 2rem;
-  border: 1px solid black;
-  background: linear-gradient(35deg, rgba(255,255,255,1) 33%, rgba(150,150,150,1) 100%);
   position: relative;
   height: 90vh;
   opacity: 0.8;
+  background: linear-gradient(-45deg, #000, #111, #222,#003);
+	background-size: 400% 400%;
+  animation: gradient 30s ease infinite;
+  border-radius: 4px;
+  box-shadow: 0px 0px 2px 2px #ccc;
 }
 
-.carps {
-  width: 100px;
-  height: 100px;
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  transform: rotate(360deg);
-  animation: animeCarps 3s ease;
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
-@keyframes animeCarps {
-  to {
-    transform: initial;
-  }
+.flex {
+  display: flex;
+  align-items: center;
 }
-
-
-
-
-

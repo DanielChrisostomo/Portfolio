@@ -1,11 +1,9 @@
 .info {
   align-self: end;
-  width: 25ch;
+  width: 15ch;
   text-align: justify;
-  display: inline-block;
-  font-weight: 500;
   position: fixed;
-  right: 0px;
+  right: 20px;
   bottom: 0px;
   line-height: 1.5;
   font-weight: 600;
@@ -13,12 +11,13 @@
 }
 
 .info span {
-  font-weight: 500;
+  font-size: 0.9rem;
+  font-weight: 400;
 }
 
 .anime-info {
-  animation: infoAnime 800ms forwards;
-  transform: translateY(-30px);
+  animation: infoAnime 2s forwards;
+  transform: translateX(-30px);
   opacity: 0;
 }
 
