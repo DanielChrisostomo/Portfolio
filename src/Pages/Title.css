@@ -34,4 +34,14 @@ p {
   transition: 600ms;
 }
 
+.ano-span {
+  position: absolute;
+  bottom: -25px;
+  left: 0px;
+}
 
+.nome-span {
+  position: absolute;
+  top: -25px;
+  right: 0px;
+}

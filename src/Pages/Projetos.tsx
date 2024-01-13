@@ -16,9 +16,7 @@ const Projetos = () => {
     <>
       <Title />
       <div className="slide anime-projeto">
-        <h2 style={{ margin: "1rem", fontSize: "1.5rem", textAlign: "center" }}>
-          Projetos
-        </h2>
+        <h2>Projetos</h2>
         <Swiper
           modules={[EffectCards]}
           effect="cards"
@@ -27,20 +25,39 @@ const Projetos = () => {
         >
           <SwiperSlide>
             <div className="slide-card">
-              <a href="">Rick and Morty Characters</a>
-              <img className="slide-item" src={RickMorty} alt="" />
+              <a href="https://danielchrisostomo.github.io/GitHub-Busca-ReactJS/">
+                GitHub Busca
+              </a>
+              <img
+                className="slide-item"
+                src={Hubusca}
+                alt="Projeto GitHub Busca"
+              />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="slide-card">
-              <a href="">GitHub Busca</a>
-              <img className="slide-item" src={Hubusca} alt="" />
+              <a href="https://danielchrisostomo.github.io/Rick-and-Morty-API/">
+                Rick and Morty Characters
+              </a>
+              <img
+                className="slide-item"
+                src={RickMorty}
+                alt="Projeto Rick and Morty"
+              />
             </div>
           </SwiperSlide>
+
           <SwiperSlide>
             <div className="slide-card">
-              <a href="">Login Page</a>
-              <img className="slide-item" src={LoginPage} alt="" />
+              <a href="https://danielchrisostomo.github.io/Login-Page-Engenharia/">
+                Login Page
+              </a>
+              <img
+                className="slide-item"
+                src={LoginPage}
+                alt="Projeto Login Page"
+              />
             </div>
           </SwiperSlide>
         </Swiper>

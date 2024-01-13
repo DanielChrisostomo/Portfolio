@@ -1,16 +1,22 @@
 .slide {
   width: 100%;
-  margin: 4rem auto;
+  margin: auto auto;
   max-width: 400px;
 }
 
-.slide-item {
-  margin-top: 0.5rem;
+.slide h2 {
+  margin: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .slide-card {
   margin-top: 1rem;
   text-align: center;
+}
+
+.slide-item {
+  margin-top: 0.5rem;
 }
 
 .anime-projeto {
