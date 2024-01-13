@@ -19,7 +19,9 @@ const Contato = () => {
           </div>
           <div className="flex">
             <Email className="svg-icon" />
-            <p>email: daniluz1515@gmail.com</p>
+            <p style={{ fontWeight: "lighter" }}>
+              email: daniluz1515@gmail.com
+            </p>
           </div>
         </div>
 

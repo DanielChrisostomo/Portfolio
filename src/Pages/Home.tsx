@@ -14,7 +14,7 @@ const Home = () => {
           <br />
           <span>começa em 2023</span>
           <br />
-          <span>Ano no qual inicio</span>
+          <span>ano no qual inicio</span>
           <br />
           <span>meus estudos em</span>
           <br />

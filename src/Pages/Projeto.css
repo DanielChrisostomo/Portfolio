@@ -1,0 +1,27 @@
+.slide {
+  width: 100%;
+  margin: 4rem auto;
+  max-width: 400px;
+}
+
+.slide-item {
+  margin-top: 0.5rem;
+}
+
+.slide-card {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.anime-projeto {
+  transform: translateX(-40px);
+  opacity: 0;
+  animation: projetoAnime 3s ease forwards;
+}
+
+@keyframes projetoAnime {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}
