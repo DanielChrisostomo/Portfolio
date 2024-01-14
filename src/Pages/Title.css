@@ -17,7 +17,7 @@ p {
 }
 
 .nome span {
-  color: var(--color-hover);
+  color: var(--color-2);
 }
 
 .links-container {
