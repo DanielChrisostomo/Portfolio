@@ -84,46 +84,62 @@ body {
   margin-bottom: 1rem;
 }
 
+
+/* SATURNO */
+
+/* BEFORE = ANEL | AFTER = PLANETA */
+
 .main-container::before {
   content: '';
   position: absolute;
-  width: 10px;
-  height: 10px;
-  top: -0.9%;
-  left: -0.5%;
+  width: 22px;
+  height: 22px;
+  top: -2.1%;
+  right: -1%;
   border-radius: 50%;
-  background-color: #fff;
-  animation: animeBefore 30s ease-out infinite;
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 0.5px orange;
+  border: 1.75px solid orange;
+  animation: animeBefore 30s linear infinite;
+  z-index: -10;
 }
+
 
 @keyframes animeBefore {
   0%{
-    background-color:white;
+    transform:rotate3d(0, 0, 0, 0deg);
+  }
+  25% {
+    transform: rotate3d(1, 1, 1, 360deg);
+  }
+  60% {
+    transform: rotate3d(1, 0, 0, 0deg);
   }
 	90% {
-		left: 99.5%;
-    background-color: goldenrod;
+		right: 99.5%;
+    transform: rotate3d(0, 1, 1, 360deg);
 	}
 }
 
 .main-container::after {
   content: '';
   position: absolute;
-  width: 10px;
-  height: 10px;
-  bottom: -0.9%;
+  width: 12px;
+  height: 12px;
+  top: -1%;
   right: -0.5%;
   border-radius: 50%;
-  background-color: #fff;
-  animation: animeAfter 30s ease-out infinite;
+  background-color: rgba(250, 100, 0, 1);
+  animation: animeAfter 30s linear infinite;
 }
 
 @keyframes animeAfter {
   0%{
-    background-color:white;
+    background-color: rgba(250, 100, 0, 1);
   }
 	90% {
-		right: 99.5%;
-    background-color: goldenrod;
+		right: 100%;
+    background-color: goldenrod; 
 	}
 }
+
