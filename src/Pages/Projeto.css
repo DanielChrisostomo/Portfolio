@@ -1,7 +1,9 @@
+.projeto-container {
+  margin: auto auto;
+}
+
 .slide {
   width: 100%;
-  margin: auto auto;
-  max-width: 400px;
 }
 
 .slide h2 {
@@ -17,6 +19,7 @@
 
 .slide-item {
   margin-top: 0.5rem;
+  max-width: 100%;
 }
 
 .anime-projeto {
@@ -30,4 +33,12 @@
     transform: initial;
     opacity: initial;
   }
+}
+
+
+.slide-container {
+  margin: 0 auto;
+  max-width: 275px;
+  background-position: center;
+  height: auto;
 }

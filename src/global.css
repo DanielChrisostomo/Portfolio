@@ -2,6 +2,7 @@ html {
   height: 100%;
   --color-1: #fff;
   --color-2: #564cff;
+  overflow: hidden;
 }
 
 * {
@@ -50,10 +51,10 @@ body {
 
 .main-container {
   display: grid;
-  grid-template-columns: 600px auto;
+  grid-template-columns: 550px auto;
   margin: 2rem 2rem;
   position: relative;
-  height: 90vh;
+  min-height: 90vh;
   opacity: 0.8;
   background: linear-gradient(-45deg, #000, #111, #225,#003);
 	background-size: 800% 800%;
@@ -86,7 +87,6 @@ body {
 
 
 /* SATURNO */
-
 /* BEFORE = ANEL | AFTER = PLANETA */
 
 .main-container::before {
@@ -101,7 +101,6 @@ body {
   box-shadow: inset 0px 0px 0px 0.5px goldenrod;
   border: 1.75px solid white;
   animation: animeBefore 15s linear infinite;
-  z-index: -10;
 }
 
 .main-container::after {
@@ -123,8 +122,6 @@ body {
   5% {
     opacity: 1;
   }
-  25%{
-  }
 	100% {
     transform:rotate3d(1, 1, 1, 1080deg);
 		right: 105.5%;
@@ -143,3 +140,10 @@ body {
 	}
 }
 
+
+
+@media (max-width: 1190px) {
+  .main-container{
+    grid-template-columns: 1fr;
+  }
+}
