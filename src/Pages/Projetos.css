@@ -2,6 +2,13 @@
   margin: auto auto;
 }
 
+.slide-container {
+  margin: 0 auto;
+  max-width: 400px;
+  background-position: center;
+  height: auto;
+}
+
 .slide {
   width: 100%;
 }
@@ -35,10 +42,11 @@
   }
 }
 
-
-.slide-container {
-  margin: 0 auto;
-  max-width: 275px;
-  background-position: center;
-  height: auto;
+@media (max-width: 800px) {
+  .slide-container{
+    max-width: 275px;
+  }
+  .slide-card {
+    overflow: hidden;
+  }
 }

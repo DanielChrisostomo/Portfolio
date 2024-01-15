@@ -3,7 +3,7 @@ import Title from "./Title";
 import LoginPage from "../assets/loginpage.png";
 import Hubusca from "../assets/hubusca.png";
 import RickMorty from "../assets/rickmorty.png";
-import "./Projeto.css";
+import "./Projetos.css";
 
 // swiper
 import { Swiper, SwiperSlide } from "swiper/react";

@@ -1,7 +1,7 @@
 .contato {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  bottom: 10px;
+  right: 25px;
 }
 
 .svg-icon {
@@ -24,9 +24,11 @@
 
 @media (max-width:800px) {
   .contato {
-    position: absolute;
-    bottom: 10px;
-    right: 15px;
+    position: unset;
+    bottom: unset;
+    right: unset;
+    align-self: end;
+    margin-left: 1rem;
   }
   .svg-icon {
     width: 25px;
