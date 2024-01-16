@@ -20,7 +20,6 @@ const Title = () => {
           <NavLink to="/projetos">Projetos</NavLink>
         </nav>
 
-        <span className="nome-span">Daniel Chrisostomo</span>
         <span className="ano-span">Desde 1994</span>
       </section>
     </>

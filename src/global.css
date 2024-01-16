@@ -54,7 +54,7 @@ body {
   grid-template-columns: 550px auto;
   margin: 2rem 2rem;
   position: relative;
-  min-height: 90vh;
+  min-height: calc(100vh - 4rem);
   opacity: 0.8;
   background: linear-gradient(-45deg, #000, #111, #225,#003);
 	background-size: 800% 800%;
@@ -95,7 +95,7 @@ body {
   width: 22px;
   height: 22px;
   top: -12px;
-  right: -36px;
+  right: calc(-2rem - 24px);
   border-radius: 50%;
   background-color: transparent;
   box-shadow: inset 0px 0px 0px 0.5px goldenrod;
@@ -109,7 +109,7 @@ body {
   width: 12px;
   height: 12px;
   top: -6px;
-  right: -30px;
+  right: calc(-2rem - 18px);
   border-radius: 50%;
   background-color:  rgba(100, 250, 250, 1);
   animation: animeAfter 20s linear infinite;
@@ -124,7 +124,7 @@ body {
   }
 	100% {
     transform:rotate3d(1, 1, 1, 1080deg);
-		right: 105.5%;
+		right: calc(100% + 2rem);
 	}
 }
 
@@ -136,7 +136,7 @@ body {
     opacity: 1;
   }
 	100% {
-		right: 106%;
+		right: calc(100% + 2rem + 6px);
 	}
 }
 
@@ -144,39 +144,4 @@ body {
   .main-container{
     grid-template-columns: 1fr;
   }
-}
-
-
-@media (max-width: 500px) {
-  .main-container::before {
-    animation: animeBeforeMedia 10s linear infinite;
-  }
-  .main-container::after {
-    animation: animeAfterMedia 10s linear infinite;
-  }
-}
-
-@keyframes animeBeforeMedia {
-  0%{
-    opacity: 0.1;
-  }
-  2% {
-    opacity: 1;
-  }
-	100% {
-    transform:rotate3d(1, 1, 1, 1080deg);
-		right: 113%;
-	}
-}
-
-@keyframes animeAfterMedia {
-  0%{
-    opacity: 0.1;
-  }
-  2%{
-    opacity: 1;
-  }
-	100% {
-		right: 115%;
-	}
 }
