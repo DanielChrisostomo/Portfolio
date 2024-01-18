@@ -44,3 +44,12 @@ p {
     font-size: 1.75rem;
   }
 }
+
+@media (max-height: 450px) {
+  h1 {
+    font-size: 1.85rem;
+  }
+  .links-container a {
+    font-size: 0.9rem;
+  }
+}

@@ -1,7 +1,7 @@
 .info {
   align-self: end;
   width: 15ch;
-  text-align: justify;
+  text-align: left;
   position: fixed;
   right: 10px;
   bottom: 0px;
@@ -26,5 +26,14 @@
   to {
     transform: initial;
     opacity: 1;
+  }
+}
+
+@media (max-height: 450px) {
+ .info {
+  margin: 0rem;
+ }
+  .info span{
+    font-size: 0.75rem;
   }
 }
