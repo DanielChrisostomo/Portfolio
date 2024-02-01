@@ -29,6 +29,16 @@
   max-width: 100%;
 }
 
+.slide-link {
+  font-size: 1rem;
+  background: rgba(0, 0, 0, 1);
+  display: block;
+  border-radius: 16px;
+  max-width: 300px;
+  padding: 8px;
+  margin: 0 auto;
+}
+
 .anime-projeto {
   transform: translateX(-40px);
   opacity: 0;

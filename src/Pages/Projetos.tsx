@@ -3,6 +3,7 @@ import Title from "./Title";
 import LoginPage from "../assets/loginpage.png";
 import Hubusca from "../assets/hubusca.png";
 import RickMorty from "../assets/rickmorty.png";
+import StarWars from "../assets/starwars-slide.png";
 import "./Projetos.css";
 
 // swiper
@@ -27,7 +28,10 @@ const Projetos = () => {
             >
               <SwiperSlide>
                 <div className="slide-card">
-                  <a href="https://danielchrisostomo.github.io/GitHub-Busca-ReactJS/">
+                  <a
+                    className="slide-link"
+                    href="https://danielchrisostomo.github.io/GitHub-Busca-ReactJS/"
+                  >
                     GitHub Busca
                   </a>
                   <img
@@ -39,7 +43,25 @@ const Projetos = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="slide-card">
-                  <a href="https://danielchrisostomo.github.io/Rick-and-Morty-API/">
+                  <a
+                    className="slide-link"
+                    href="https://danielchrisostomo.github.io/Slide-JS-Star-Wars/"
+                  >
+                    Star Wars Slide JS
+                  </a>
+                  <img
+                    className="slide-item"
+                    src={StarWars}
+                    alt="Star Wars Slide JS"
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="slide-card">
+                  <a
+                    className="slide-link"
+                    href="https://danielchrisostomo.github.io/Rick-and-Morty-API/"
+                  >
                     Rick and Morty Characters
                   </a>
                   <img
@@ -52,7 +74,10 @@ const Projetos = () => {
 
               <SwiperSlide>
                 <div className="slide-card">
-                  <a href="https://danielchrisostomo.github.io/Login-Page-Engenharia/">
+                  <a
+                    className="slide-link"
+                    href="https://danielchrisostomo.github.io/Login-Page-Engenharia/"
+                  >
                     Login Page
                   </a>
                   <img
