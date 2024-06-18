@@ -53,3 +53,9 @@ p {
     font-size: 0.9rem;
   }
 }
+
+@media (max-width: 450px) {
+  .links-container {
+    margin-top: 4rem;
+  }
+}

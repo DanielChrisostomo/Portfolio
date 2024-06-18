@@ -81,3 +81,9 @@
     overflow: hidden;
   }
 }
+
+@media (max-width: 400px) {
+  .slide-icons {
+    display: none;
+  }
+}
