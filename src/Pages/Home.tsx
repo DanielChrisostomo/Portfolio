@@ -16,16 +16,19 @@ const Home = () => {
             <span>meus estudos em </span>
             <span>Análise e </span>
             <span>Desenvolvimento </span>
-            <span>de Sistemas </span>
+            <span>de Sistemas. </span>
             <span>Atualmente </span>
             <span>meu foco é o </span>
-            <span>desenvolvimento web </span>
+            <span>desenvolvimento </span>
             <span>Front-End </span>
             <span>e busco desenvolver </span>
             <span>sistemas com as </span>
             <span>tecnologias </span>
-            <span>React JS, JavaScript </span>
-            <span>TypeScript e CSS3 </span>
+            <span>React JS, </span>
+            <span>JavaScript, </span>
+            <span>React Native, </span>
+            <span>TypeScript, </span>
+            <span>HTML e CSS </span>
           </p>
         </section>
       </div>

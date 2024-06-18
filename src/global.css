@@ -84,7 +84,6 @@ body {
   margin-bottom: 1rem;
 }
 
-
 /* SATURNO */
 /* BEFORE = ANEL | AFTER = PLANETA */
 
@@ -151,4 +150,16 @@ body {
   .main-container{
     grid-template-columns: 1fr;
   }
+}
+
+:root {
+  --swiper-pagination-color: white;
+  --swiper-pagination-bullet-horizontal-gap: 16px;
+  --swiper-pagination-bullet-vertical-gap: 16px;
+  --swiper-pagination-bullet-size: 8px;
+  --swiper-pagination-bullet-width: 8px;
+  --swiper-pagination-bullet-height: 8px;
+  --swiper-pagination-bullet-inactive-color: #ccc;
+  --swiper-pagination-bullet-inactive-opacity: 0.2;
+  --swiper-pagination-bullet-opacity: 1;
 }

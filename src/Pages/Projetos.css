@@ -7,6 +7,7 @@
   max-width: 400px;
   background-position: center;
   height: auto;
+  max-width: 350px;
 }
 
 .slide {
@@ -24,9 +25,22 @@
   text-align: center;
 }
 
+.slide-card p {
+  line-height: 1.5;
+  font-weight: 400;
+}
+
 .slide-item {
   margin-top: 0.5rem;
   max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.slide-link-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .slide-link {
@@ -36,6 +50,14 @@
   max-width: 300px;
   padding: 8px;
   margin: 0 auto;
+}
+
+.slide-icons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  right: 0px;
 }
 
 .anime-projeto {
