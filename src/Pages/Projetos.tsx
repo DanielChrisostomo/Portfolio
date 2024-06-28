@@ -64,7 +64,7 @@ const Projetos = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="slide-card">
-                  <Link className="slide-link-container" to="https://danielchrisostomo.github.io/GitHub-Busca-ReactJS/">
+                  <a className="slide-link-container" href="https://danielchrisostomo.github.io/GitHub-Busca-ReactJS/">
                     <div>
                       <p
                         className="slide-link"
@@ -76,7 +76,7 @@ const Projetos = () => {
                       <Clickable width={20} height={20} />
                       <Eye width={20} height={20} />
                     </div>
-                  </Link>
+                  </a>
                   <img
                     className="slide-item"
                     src={Hubusca}
@@ -86,7 +86,7 @@ const Projetos = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="slide-card">
-                <Link className="slide-link-container" to="https://danielchrisostomo.github.io/Slide-JS-Star-Wars/">
+                <a className="slide-link-container" href="https://danielchrisostomo.github.io/Slide-JS-Star-Wars/">
                     <div>
                       <p
                         className="slide-link"
@@ -98,7 +98,7 @@ const Projetos = () => {
                       <Clickable width={20} height={20} />
                       <Eye width={20} height={20} />
                     </div>
-                  </Link>
+                  </a>
                   <img
                     className="slide-item"
                     src={StarWars}
@@ -108,7 +108,7 @@ const Projetos = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="slide-card">
-                <Link className="slide-link-container" to="https://danielchrisostomo.github.io/Rick-and-Morty-API/">
+                <a className="slide-link-container" href="https://danielchrisostomo.github.io/Rick-and-Morty-API/">
                     <div>
                       <p
                         className="slide-link"
@@ -120,7 +120,7 @@ const Projetos = () => {
                       <Clickable width={20} height={20} />
                       <Eye width={20} height={20} />
                     </div>
-                  </Link>
+                  </a>
                   <img
                     className="slide-item"
                     src={RickMorty}
@@ -131,7 +131,7 @@ const Projetos = () => {
 
               <SwiperSlide>
                 <div className="slide-card">
-                <Link className="slide-link-container" to="https://danielchrisostomo.github.io/Login-Page-Engenharia/">
+                <a className="slide-link-container" href="https://danielchrisostomo.github.io/Login-Page-Engenharia/">
                     <div>
                       <p
                         className="slide-link"
@@ -143,7 +143,7 @@ const Projetos = () => {
                       <Clickable width={20} height={20} />
                       <Eye width={20} height={20} />
                     </div>
-                  </Link>
+                  </a>
                   <img
                     className="slide-item"
                     src={LoginPage}
